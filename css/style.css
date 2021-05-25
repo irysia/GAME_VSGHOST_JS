@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Major Mono Display', monospace;
+}
+
+#screen_game{
+    background-image: url(../images/manoir.jpg);
+    background-size: cover;
+}
+#game_character{
+    position: relative;
+ 
+}
+
+.fa-ghost{
+    font-size: 2rem;
+}
+
+#ghost_1{
+    color: aqua;
+    transition: position,0.1s;
+
+}
+#ghost_2{
+    color: violet;
+    transition: position,0.1s;
+}
+#ghost_3{
+    color:darkorange;
+    transition: position,0.1s;
+}
+
+.walls{
+    height: 30px;
+    background: rgb(47,236,43);
+    background: linear-gradient(180deg, rgba(47,236,43,1) 21%, rgba(107,46,45,1) 65%);
+}
+
+.fa-user-secret{
+    font-size:3rem;
+    color: white;
+    opacity: 0.5;
+}
+
